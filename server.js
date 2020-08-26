@@ -1,3 +1,6 @@
+// make sure that mongodb is running by using brew services start mongodb-community@4.4
+// To stop mongodb use brew services stop mongodb-community@4.4
+
 require("dotenv").config();
 
 const express = require("express");
